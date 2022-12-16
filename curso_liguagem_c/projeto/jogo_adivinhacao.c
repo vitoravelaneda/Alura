@@ -20,4 +20,12 @@ int main (){
     printf("Qual é o seu chute? "); // Printa mensagem na tela
     scanf("%d", &chute); // Atribui o valor digitado pelo usuario para veriavel chute
     printf("Seu chute foi: %d\n", chute); // printa o valor atribuido para variavel chute
+
+    if (chute == number_secret)
+    {
+        printf("Parabéns! Você acertou!\n");
+    }
+    else
+        printf("Você errou!\n");
+    
 }
