@@ -24,8 +24,10 @@ int main (){
     if (chute == number_secret)
     {
         printf("Parabéns! Você acertou!\n");
+        printf("Jogue de novo meu vidente, hoje é o seu dia de sorte!\n");
     }
-    else
+    else {
         printf("Você errou!\n");
-    
+        printf("Mas não desanime, tende de novo!\n");
+    }
 }
