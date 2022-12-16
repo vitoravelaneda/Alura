@@ -1,2 +1,2 @@
 # Alura
- Codigos desenvolvidos nos cursos da alura
+ Neste repositório está os scripts que venho desenvolvendo ao longo dos cursos da Alura.
