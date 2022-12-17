@@ -21,13 +21,24 @@ int main (){
     scanf("%d", &chute); // Atribui o valor digitado pelo usuario para veriavel chute
     printf("Seu chute foi: %d\n", chute); // printa o valor atribuido para variavel chute
 
-    if (chute == number_secret)
+    int acertou = (chute == number_secret);
+
+    if (acertou)
     {
         printf("Parabéns! Você acertou!\n");
         printf("Jogue de novo meu vidente, hoje é o seu dia de sorte!\n");
     }
     else {
-        printf("Você errou!\n");
+
+        int maior = (chute > number_secret); 
+        if (maior)
+        {
+            printf("Essa foi por pouco, seu chute foi maior que o número secreto.\n");
+        } else {
+            printf("Essa foi por pouco, seu chute foi menor que o número secreto.\n");
+        }
+        
+        //printf("Você errou!\n");
         printf("Mas não desanime, tende de novo!\n");
     }
 }
