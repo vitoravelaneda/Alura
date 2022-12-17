@@ -31,6 +31,7 @@ int main (){
     else {
 
         int maior = (chute > number_secret); 
+        
         if (maior)
         {
             printf("Essa foi por pouco, seu chute foi maior que o número secreto.\n");
